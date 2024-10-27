@@ -1,8 +1,17 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from 'react';
+import Header from './components/Header';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <main className="container mx-auto p-4">
+        <h2 className="text-3xl font-semibold text-secondary">
+          Welcome to Mombasa Sikh Temple
+        </h2>
+      </main>
+    </div>
+  );
+}
+
+export default App;
