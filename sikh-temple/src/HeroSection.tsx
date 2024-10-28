@@ -23,3 +23,5 @@ const HeroSection: React.FC = () => {
     </div>
   );
 };
+
+export default HeroSection;

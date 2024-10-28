@@ -16,4 +16,5 @@ interface EventCardProps {
       </div>
     );
   };
-  
+
+export default EventCard;
