@@ -11,12 +11,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Navbar />
-      <Home />
-      <AboutUs />
-      <Events />
-      <Contact />
-      <EventCard title="Event 1" date="2021-01-01" description="This is the first event" />
-      <HeroSection />
+      
     </div>
   );
 };
