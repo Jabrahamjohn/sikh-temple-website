@@ -1,17 +1,21 @@
 import React from 'react';
 
+// Navbar.tsx
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-primary-orange p-4">
-     <ul className="flex justify-around text-white font-semibold">
-       <li><a href="#home" className="hover:text-primary-blue">Home</a></li>
-       <li><a href="#about" className="hover:text-primary-blue">About Us</a></li>
-       <li><a href="#events" className="hover:text-primary-blue">Events</a></li>
-       <li><a href="#contact" className="hover:text-primary-blue">Contact</a></li>
-      </ul>
+    <nav className="bg-gray-800 p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-white text-2xl">Mombasa Sikh Temple</div>
+        <ul className="flex space-x-4">
+          <li><a className="text-white hover:text-blue-400" href="#home">Home</a></li>
+          <li><a className="text-white hover:text-blue-400" href="#about">About</a></li>
+          <li><a className="text-white hover:text-blue-400" href="#events">Events</a></li>
+          <li><a className="text-white hover:text-blue-400" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-
   );
 };
+
 
 export default Navbar;
